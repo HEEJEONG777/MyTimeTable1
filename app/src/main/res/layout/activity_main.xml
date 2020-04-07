@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout style="@style/tth">
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="60px"-->
+            <!--            android:background="#777"-->
+            <!--            android:layout_margin="5px"-->
+            <!--            android:orientation="horizontal"-->
+            <!--            android:weightSum="6">-->
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:background="#888"
+                    android:text=""></TextView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:text="월"></TextView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:text="화"></TextView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:text="수"></TextView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:text="목"></TextView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttday">
+
+                <TextView
+                    style="@style/tttvday"
+                    android:layout_marginRight="1dp"
+                    android:text="금"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ttb">
+
+            <LinearLayout style="@style/tttime">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></TextView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+                <LinearLayout style="@style/ttday">
+
+                    <TextView
+                        style="@style/ttperiod"
+                        android:text="화"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttlecture">
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttlecture">
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttlecture">
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttlecture">
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ttlecture">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
