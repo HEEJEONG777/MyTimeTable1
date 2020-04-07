@@ -11,71 +11,88 @@
     </style>
 
     <style name="tth">
-
-        <item name="android:weightSum">6</item>
-        <item name="android:background">#bbb</item>
+<!--헤더 - 날짜 구역-->
+        <item name="android:weightSum">6.5</item>
+        <item name="android:background">#cbc5c1</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <!--        <item name="android:layout_margin">2dp</item>-->
         <item name="android:orientation">horizontal</item>
-        <item name="android:padding">3dp</item>
-        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_margin">1.5dp</item>
 
     </style>
 
     <style name="ttday">
-
+<!--날짜 레이아웃 -->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:background">#ccc</item>
+        <item name="android:layout_weight">1.1</item>
+        <item name="android:paddingTop">1.5dp</item>
+<!--        <item name="android:paddingBottom">1.5dp</item>-->
+        <item name="android:paddingLeft">1.5dp</item>
+<!--        <item name="android:paddingRight">1.5dp</item>-->
+        <item name="android:background">#ebeced</item>
 
     </style>
 
     <style name="tttvday">
-
+<!--날짜-->
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">#fff</item>
         <!--        <item name="android:layout_marginLeft">1dp</item>-->
         <!--        <item name="android:layout_marginRight">1dp</item>-->
-        <item name="android:layout_marginTop">1.5dp</item>
-        <item name="android:layout_marginBottom">1.5dp</item>
-        <item name="android:layout_marginLeft">1.5dp</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:background">#aaa</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#3e3e3b</item>
 
     </style>
 
     <style name="ttb" parent="tth">
-
-        <item name="android:padding">0dp</item>
+<!--본문- 교시/수업 구역-->
+        <item name="android:background">#135589</item>
+        <item name="android:paddingRight">10dp</item>
         <item name="android:layout_height">match_parent</item>
 
     </style>
 
     <style name="tttime" parent="ttb">
-
+<!--교시 레이아웃-->
         <item name="android:layout_marginTop">1dp</item>
         <item name="android:layout_marginBottom">1dp</item>
         <item name="android:layout_marginLeft">1dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:weightSum">8</item>
+        <item name="android:weightSum">8.8</item>
 
     </style>
 
     <style name="ttlecture" parent="tttime">
-
-        <item name="android:background">#888</item>
+<!--수업 레이아웃-->
+        <item name="android:layout_weight">1.1</item>
+        <item name="android:background">#a2aab0</item>
+        <item name="android:layout_marginTop">2.5dp</item>
+        <item name="android:layout_marginBottom">1.5dp</item>
+        <item name="android:layout_marginRight">1.5dp</item>
 
     </style>
 
     <style name="ttperiod" parent="ttday">
-
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:background">#ccf</item>
+<!--교시-->
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#3e3e3b</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">5pt</item>
+    </style>
+    
+    <style name="ttsubject" parent="ttday">
+<!--수업 없음-->
+        <item name="android:background">#ebeced</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
     </style>
 
 </resources>
