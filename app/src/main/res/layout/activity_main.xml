@@ -150,57 +150,240 @@
 
             </LinearLayout>
 
-            <LinearLayout style="@style/ttlecture">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-                <LinearLayout style="@style/ttsubject">
+                <LinearLayout style="@style/ttlecture"
+                    android:id="@+id/ttl01"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout style="@style/ttsubject">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ttlecture"
+                    android:id="@+id/ttl02"
+                    app:layout_constraintLeft_toRightOf="ttl01"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout style="@style/ttsubject">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ttlecture"
+                    android:id="@+id/ttl03"
+                    app:layout_constraintLeft_toRightOf="ttl02"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout style="@style/ttsubject">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ttlecture"
+                    android:id="@+id/ttl04"
+                    app:layout_constraintLeft_toRightOf="ttl03"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout style="@style/ttsubject">
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_weight="1.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ttlecture"
+                    android:id="@+id/ttl05"
+                    app:layout_constraintLeft_toRightOf="ttl04"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ttsubject">
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <LinearLayout style="@style/ttsubject">
-
-                </LinearLayout>
-
-                <LinearLayout style="@style/ttsubject">
-
-                </LinearLayout>
-
-                <LinearLayout style="@style/ttsubject">
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout style="@style/ttlecture">
-
-            </LinearLayout>
-
-            <LinearLayout style="@style/ttlecture">
-
-            </LinearLayout>
-
-            <LinearLayout style="@style/ttlecture">
-
-            </LinearLayout>
-
-            <LinearLayout style="@style/ttlecture">
-
-            </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
